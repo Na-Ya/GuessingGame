@@ -1,86 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Guessing Game</title>
 
     <!-- Bootstrap and CSS here-->
-    <style>
-      .center {
-        text-align: center;
-      }
-      ul {
-          list-style: none;
-          padding: 0;
-      }
-      img {
-          display: inline;
-          width: 200px;
-          height: 100px;
-      }
-      #footer {
-          width: 100%;
-          border-top: solid 2px black;
-          background-color: white;
-          position: fixed;
-          bottom: 0;
-      }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
 
-  </head>
-  <body>
 
-      <div id='app'>
+</head>
 
-        <div id='headers'>
-          <!-- Title and subtitles! -->
-          <h1 id="title">Play the Guessing Game!</h1>
-          <h3 id="subtitle">Guess a number between 1-100!</h3>
+<body>
+
+    <div id='app' class="container center">
+
+        <div id='headers' class="row justify-content-center">
+            <!-- Title and subtitles! -->
+            <div class="col-sm-6">
+                <h1 id="title">Play the Guessing Game!</h1>
+                <h3 id="subtitle">Guess a number between 1-100.</h3>
+            </div>
         </div>
 
         <div id='main'>
-          <div id='input-parent'>
-              <input autofocus="autofocus" maxlength="3" placeholder="Pick a # between 1-100">
-              <input type="button" value ="Guess!">
-            <!-- Player's guess input, and submit button. -->
-          </div>
-
-          <div id='guessesDiv'>
-              <ul id="previousGuesses">
-                    <li>...</li>
-                    <li>...</li>
-                    <li>...</li>
-                    <li>...</li>
-                    <li>...</li>
-              </ul>
-            <!-- unordered list of guesses -->
-          </div>
-
-          <div id="menu-btns">
-              <button id="reset"> Reset</button> 
-              <button id="hint">Hint</button> 
-            <!-- reset and hint buttons -->
-          </div>
+            <div id='input-parent'>
+                   <div class="row justify-content-center">
+                <div class="form-group col-sm-12">                    
+                    <input id="player-input" autofocus="autofocus" maxlength="3" placeholder="#" class="form-control center">
+                    <button id="submit" class="btn btn-sample btn-lg">Go!</button>
+                </div>
+            </div>
+                <!-- Player's guess input, and submit button. -->
+            </div>
         </div>
-      </div>
+
+        <div id='guessesDiv' class="row justify-content-center">
+            <div class="col-sm-6">
+                <ul id="guessList" class="list-inline">
+                    <li class="guess list-inline-item">_</li>
+                    <li class="guess list-inline-item">_</li>
+                    <li class="guess list-inline-item">_</li>
+                    <li class="guess list-inline-item">_</li>
+                    <li class="guess list-inline-item">_</li>
+                </ul>
+                <!-- unordered list of guesses -->
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div id="menu-btns" class="col-sm-6">
+                <button id="reset" class="btn btn-warning btn-lg"> Reset</button>
+                <button id="hint" class="btn btn-info btn-lg">Hint</button>
+                <!-- reset and hint buttons -->
+            </div>
+        </div>
+    </div>
+    </div>
 
 
-    <div id='footer'>
-        <div>
-          <div class=''>
-            <img src='fa-logo@2x.png'></img>
-          </div>
+    <div id='footer' class="center fixed-bottom">
+        <div class="row justify-content-center">
+            <div class='col align-self-center'>
+                <img src='fa-logo@2x.png' class="img-fluid"></img>
+            </div>
 
-          <div class=''>
-            <h4>Project by Nabil Yafai</h4>
-          </div>
+            <div class='col align-self-center'>
+                <h4 id="tag">Project by Nabil Yafai</h4>
+            </div>
 
-          <div class=''>
-            <img src='grace_hopper_academy.png'></img>
-          </div>
-
+            <div class='col align-self-center'>
+                <img src='grace_hopper_academy.png' class="img-fluid"></img>
+            </div>
 
         </div>
     </div>
 
-  </body>
+
+</body>
+
 </html>
