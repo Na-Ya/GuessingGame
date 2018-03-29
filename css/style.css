@@ -55,8 +55,7 @@ html {
     margin-top:20px;
 }
 #reset, #hint {
-    margin:2%;
-    margin-bottom:3%;
+    margin: 0 10px;
 }
 
 .guess{
