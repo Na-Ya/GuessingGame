@@ -1,112 +1,109 @@
-body{
-    background: linear-gradient(to right, #e6af4b , #e05038);   
+body {
+	background: linear-gradient(to right, #e6af4b, #e05038);
 }
 
 .center {
 	text-align: center;
 }
-#app{
-    margin-bottom: 10vh;
+#app {
+	margin-bottom: 10vh;
 }
 img {
 	display: inline;
 	width: 200px;
 	height: 100px;
 }
-.btn{
-    font-family: Quicksand;
+.btn {
+	font-family: Quicksand;
 }
 #footer {
 	border-top: solid 2px white;
-    background-color: #EEE3AB;
-    font-family: Raleway;  
-    height: 10vh;  
+	background-color: #eee3ab;
+	font-family: Raleway;
+	height: 10vh;
 }
 html {
-    box-sizing: 'border-box';
-} 
+	box-sizing: 'border-box';
+}
 
 #input-parent {
-    width: 160px;
-    margin: 5% auto 50px;
-    position: relative;
+	width: 160px;
+	margin: 5% auto 50px;
+	position: relative;
 }
 #submit {
-    margin:2%;
-    width: 60px;
-    height:60px;
-    border-radius: 50%;
-    position:absolute;
-    top: 110px;
-    left: 110px;
-    box-shadow: 0 0 10px white;
+	margin: 2%;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: absolute;
+	top: 110px;
+	left: 110px;
+	box-shadow: 0 0 10px white;
 }
-#headers{
-    font-family:Quicksand;
-    color: #D6D1B1;
+#headers {
+	font-family: Quicksand;
+	color: #d6d1b1;
 }
 #title {
-    margin: 2%;
-    margin-bottom:2%;
-    font-size:275%;
+	margin: 2%;
+	margin-bottom: 2%;
+	font-size: 275%;
 }
-#subtitle{
-    font-size: 150%;
-    margin-top:20px;
+#subtitle {
+	font-size: 150%;
+	margin-top: 20px;
 }
-#reset, #hint {
-    margin: 0 10px;
+#reset,
+#hint {
+	margin: 0 10px;
 }
 
-.guess{
-    margin:1%;
-    border: solid 1px black;
-    border-radius: 20%;
-    font-size: 300%;
-    padding: 0 5%;
-    background: linear-gradient(to right, white , #f2cbbc);
-    box-shadow: 0 0 10px white;
+.guess {
+	margin: 1%;
+	border: solid 1px black;
+	border-radius: 20%;
+	font-size: 300%;
+	padding: 0 5%;
+	background: linear-gradient(to right, white, #f2cbbc);
+	box-shadow: 0 0 10px white;
 }
-#player-input{
-    font-size:350%;
-    font-family:Quicksand;
-    height:160px;
-    width: 160px;
-    border-radius: 50%;
+#player-input {
+	font-size: 350%;
+	font-family: Quicksand;
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
 }
 
 #player-input:focus {
-    outline: none !important;
-    border:5px double #e6af4b;
-    box-shadow: 0 0 20px white;
+	outline: none !important;
+	border: 5px double #e6af4b;
+	box-shadow: 0 0 20px white;
 }
-.btn-sample { 
-    color: #FFFFFF; 
-    background-color: #FF7700; 
-    border-color: #FF9940; 
-  } 
-   
-  .btn-sample:hover, 
-  .btn-sample:focus, 
-  .btn-sample:active, 
-  .btn-sample.active, 
-  .open .dropdown-toggle.btn-sample { 
-    color: #FFFFFF; 
-    background-color: #FF9940; 
-    border-color: #FF9940; 
-  } 
-   
-  .btn-sample:active, 
-  .btn-sample.active, 
-  .open .dropdown-toggle.btn-sample { 
-    background-image: none; 
-  } 
-   
+.btn-sample {
+	color: #ffffff;
+	background-color: #ff7700;
+	border-color: #ff9940;
+}
 
-  .btn-sample .badge { 
-    color: #FF7700; 
-    background-color: #FFFFFF; 
-  }
+.btn-sample:hover,
+.btn-sample:focus,
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+	color: #ffffff;
+	background-color: #ff9940;
+	border-color: #ff9940;
+}
 
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+	background-image: none;
+}
 
-  
+.btn-sample .badge {
+	color: #ff7700;
+	background-color: #ffffff;
+}
