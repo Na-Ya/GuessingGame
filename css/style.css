@@ -68,12 +68,22 @@ html {
 	background: linear-gradient(to right, white, #f2cbbc);
 	box-shadow: 0 0 10px white;
 }
+@keyframes bigger{
+	from {height: 60px;
+		width: 60px;}
+	to {height: 160px;
+		width: 160px;}
+} 
+
 #player-input {
 	font-size: 350%;
 	font-family: Quicksand;
 	height: 160px;
 	width: 160px;
 	border-radius: 50%;
+	animation-name: bigger;
+	animation-duration:2.5s;
+	animation-fill-mode: forwards;
 }
 
 #player-input:focus {
